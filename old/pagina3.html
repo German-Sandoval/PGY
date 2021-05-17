@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(16, 58, 10);">
+    
+    <!--Shorcut TABLE>TR*5>TD*4-->
+    <!--El formulario se envia:
+        GET: se ve la informacion por la url (para testeo)
+        post: es el metodo final para el usuario (no se ve por la url)
+    -->
+
+    <!--Inicio de formulario-->
+    <div>
+        <form action="recibo.html" method="GET">
+            <table border="1">
+                <tr>
+                    <td>Nombre de la Mascota</td>
+                    <td><input type="text" name="txtNombre" id="txtNombre"></td>
+                </tr>
+                <tr>
+                    <td>Nombre del Dueño</td>
+                    <td><input type="text" name="txtDueno" id="txtDueno"></td>
+                </tr>
+                <tr>
+                    <td>Fecha de Nacimiento</td>
+                    <td><input type="date" name="txtFecha" id="txtFecha"></td>
+                </tr>
+                <tr>
+                    <td>Imagen de la Mascota</td>
+                    <td><input type="file" name="txtImagen" id="txtImagen"></td>
+                </tr>
+                <tr>
+                    <td>Edad de la Mascota</td>
+                    <td><input type="number" name="txtEdad" id="txtEdad"></td>
+                </tr>
+                <tr>
+                    <td>Contraseña</td>
+                    <td><input type="password" name="txtPass" id="txtPass"></td>
+                </tr>
+                <tr>
+                 
+                    <td colspan="2">
+                        <input type="submit" name="btnEnviar" id="btnEnviar">
+                        <input type="reset" name="btnLimpiar" id="btnLimpiar">
+                    </td>
+                </tr>
+            </table>
+            
+            
+            
+            
+            
+            
+            
+            
+        </form>
+    </div>
+    <!--Fin de formulario-->
+</body>
+</html>
